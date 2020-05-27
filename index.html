@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="App">
+    <h1>Work Area</h1>
+    <div class="cards">
+      <div id="bday_0">
+        <div class='birthday_card'>
+          <div class='birthday_header'>Sun</div>
+          <div class="grid_container"></div>
+        </div>
+      </div>
+      <div id="bday_1">
+        <div class='birthday_card'>
+          <div class='birthday_header'>Mon</div>
+          <div class="grid_container"></div>
+        </div>
+      </div>
+      <div id="bday_2">
+        <div class='birthday_card'>
+          <div class='birthday_header'>Tue</div>
+          <div class="grid_container"></div>
+        </div>
+      </div>
+      <div id="bday_3">
+        <div class='birthday_card'>
+          <div class='birthday_header'>Wed</div>
+          <div class="grid_container"></div>
+        </div>
+      </div>
+      <div id="bday_4">
+        <div class='birthday_card'>
+          <div class='birthday_header'>Thr</div>
+          <div class="grid_container"></div>
+        </div>
+      </div>
+      <div id="bday_5">
+        <div class='birthday_card'>
+          <div class='birthday_header'>Fri</div>
+          <div class="grid_container"></div>
+        </div>
+      </div>
+      <div id="bday_6">
+        <div class='birthday_card'>
+          <div class='birthday_header'>Sat</div>
+          <div class="grid_container"></div>
+        </div>
+      </div>
+    </div>
+    <form class="input_parent" id="form-birthday">
+      <div>
+        <textarea rows="25" cols="75" id="json" name="json">
+          [ { "name": "John Smith", "birthday": "11/11/2007" }, { "name": "Joe Smith", "birthday": "10/11/2007" }, { "name": "Bob Smith", "birthday": "09/11/2007" }, { "name": "Mike Smith", "birthday": "09/11/2005" }, { "name": "Mike Carlos", "birthday": "09/11/2005" }, { "name": "Bob Smith", "birthday": "09/11/2005" }, { "name": "John Carlos", "birthday": "09/11/2005" }, { "name": "Mike K", "birthday": "09/11/2005" }, { "name": "Bob K", "birthday": "09/11/2005" }, { "name": "Alice K", "birthday": "09/11/2005" }, { "name": "JS PHP", "birthday": "09/06/2005" }, { "name": "Random Name", "birthday": "09/06/2005" } ]
+        </textarea>
+      </div>
+      <div class='input_year'>
+        <label for="calyear">Year</label>
+        <input id="calyear" type="text" id="year" name="year"/>
+        <button type="submit" value="Submit" id="submit">Update</button>
+      </div>
+    </form>
+  </div>
+</body>
+<script type="application/javascript" src="index.js"></script>
+</html>

@@ -1,0 +1,77 @@
+html{
+  background: #eaf0f2;
+}
+
+.App {
+  text-align: center;
+  margin: 15px;
+}
+
+.cards {
+  display: flex;
+}
+
+.birthday_header {
+  background: #ab9eee;
+  text-align: right;
+  padding: 10px;
+}
+
+.birthday_card {
+  margin: 10px;
+}
+
+.input_parent {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+
+.input_year {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.input_year button {
+  height: 40px;
+  width: 120px;
+  margin-top: 30px;
+  background: #2989ec;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.input_year input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.input_year label {
+  text-align: left;
+}
+
+.invalid {
+  color: red;
+  size: 22px;
+}
+
+.grid_child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.grid_container {
+  display: grid;
+  background: white;
+  width: 150px;
+  height: 150px;
+  grid-gap: 0;
+}
